@@ -1,0 +1,410 @@
+﻿Version=4
+IconFile=
+NumberOfModules=19
+Module1=Utama
+Module2=Content
+Module3=Register
+Module4=MenuSearch
+Module5=Fungsi
+Module6=Profile
+Module7=ForgotPass
+Module8=Share
+Module9=AnotherDatePicker
+Module10=MNChttpJob
+Module11=ClsActionBar
+Module12=MNCUtils2Service
+Module13=Pemutar
+Module14=Pencarian
+Module15=WebView
+Module16=Play
+Module17=Result
+Module18=Date
+Module19=SearcView
+Build1=Default,newmoviebay.mncplaymedia.com
+DoNotOverwriteManifest=False
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: http://www.basic4ppc.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="5" android:targetSdkVersion="14"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~SetApplicationAttribute(android:theme, "@android:style/Theme.Holo")~\n~SetActivityAttribute(Main, "android:excludeFromRecents", "true")~\n~~\n~AddManifestText(<uses-permission android:name="android.permission.INTERNET" />)~\n~AddManifestText(<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />)~\n~AddManifestText(<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />)~\n~AddManifestText(<uses-permission android:name="android.permission.READ_PHONE_STATE" />)~\n~AddManifestText(<uses-permission android:name="android.permission.WAKE_LOCK" />)~\n~AddManifestText(<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />)~\n~AddManifestText(<uses-permission android:name="android.permission.RESTART_PACKAGES" />)~\n~AddManifestText(<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />)~\n~~\n~AddApplicationText(<activity~\n~android:name="io.vov.vitamio.activity.InitActivity"~\n~android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"~\n~android:launchMode="singleTop"~\n~android:theme="@android:style/Theme.NoTitleBar"~\n~android:windowSoftInputMode="stateAlwaysHidden" />)~\n~'End of default text.
+NumberOfFiles=87
+File1=1024_ic.png
+File2=128_ic.png
+File3=256_ic.png
+File4=512_ic.png
+File5=arrowdown_icon.png
+File6=back_icon.png
+File7=background.jpg
+File8=cancel_btn_wide.png
+File9=cancel_icon.png
+File10=cities.txt
+File11=clipsmedia.png
+File12=comment_icon.png
+File13=Comments.bal
+File14=config.json
+File15=Content.bal
+File16=Contentdetail.bal
+File17=dashboard.png
+File18=DatePicker.bal
+File19=duration_icon.png
+File20=edit_profile.png
+File21=exit_menutop.png
+File22=facebook.png
+File23=film.png
+File24=Forgot.bal
+File25=garis.png
+File26=genre_icon.png
+File27=gotham-bold.ttf
+File28=gotham-light.ttf
+File29=gotham-medium.ttf
+File30=hourglass.gif
+File31=idprofile.bal
+File32=input_bar_long - copy.png
+File33=instagram.png
+File34=jam.png
+File35=login with facebook.png
+File36=Login.bal
+File37=login.jpg
+File38=login_sharing.png
+File39=loginlogo.png
+File40=logo_login.png
+File41=mainpage.bal
+File42=menu_icon.png
+File43=mockup-register.jpg
+File44=mockupsplashscreen.jpg
+File45=NewContent.bal
+File46=NewContents.bal
+File47=NewReg.bal
+File48=nexplayersdklitevm.apk
+File49=or.png
+File50=pagesearch.bal
+File51=pass.png
+File52=pass_input_.png
+File53=Payement.bal
+File54=payment.png
+File55=pilihvod.png
+File56=play_icon.png
+File57=playbutton.png
+File58=Premium.bal
+File59=previous.png
+File60=raid_articlelarge.jpg
+File61=raid-articlelarge.jpg
+File62=rate_icon.png
+File63=red-line.png
+File64=register.bal
+File65=register.png
+File66=registration.png
+File67=reply.json
+File68=rg.bal
+File69=rilxg8r8t.png
+File70=Search.bal
+File71=search_icon.png
+File72=Share.bal
+File73=share_icon.png
+File74=submit.png
+File75=the-raid.jpg
+File76=the-raid-poster.jpg
+File77=the-raid-poster-2.jpg
+File78=trailer_icon.png
+File79=Transaction.png
+File80=twitter.png
+File81=twitter-icon.png
+File82=username.png
+File83=Utama.bal
+File84=vid_details_bg.png
+File85=warning.png
+File86=watch.png
+File87=youtube.png
+NumberOfLibraries=26
+Library1=core
+Library2=splashfade
+Library3=randomaccessfile
+Library4=reflection
+Library5=phone
+Library6=json
+Library7=stringutils
+Library8=byteconverter
+Library9=encryption
+Library10=abwifi
+Library11=betterdialogs
+Library12=ahviewpager
+Library13=animation
+Library14=b4agridview
+Library15=http
+Library16=icscontrols
+Library17=stringfunctions
+Library18=toastmessageshow
+Library19=vitamiobundle-4-2-0
+Library20=xtraviews
+Library21=webviewextras
+Library22=webviewxtended
+Library23=ime
+Library24=contentresolver
+Library25=sql
+Library26=dateutils
+@EndOfDesignText@
+   #Region  Project Attributes 
+	#ApplicationLabel: New Moviebay
+	#VersionCode: 1
+	#VersionName: Movie Player
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: portrait
+	#CanInstallToExternalStorage: True
+'	#AdditionalRes: E:\MNC\Aplikasi Android\Vitamio\res, io.vov.vitamio
+'  #AdditionalRes: E:\MNC\Aplikasi Android\SlidingMenu\res, com.jeremyfeinstein.slidingmenu.lib
+'	#AdditionalRes: d:\Program\Basic4Android\Library\Vitamio\res, com.jeremyfeinstein.slidingmenu.lib
+'	#AdditionalRes: d:\Program\Basic4Android\Library\SlidingMenu\res, com.jeremyfeinstein.slidingmenu.lib
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: False
+#End Region
+
+#Region Image Sesuai Resolusi
+#AdditionalRes: ../drawable 
+#End Region
+
+Sub Process_Globals
+	'These global variables will be declared once when the application starts.
+	'These variables can be accessed from all modules.
+
+End Sub
+
+Sub Globals
+	'These global variables will be redeclared each time the activity is created.
+	'These variables can only be accessed from this module.
+
+	Private sfMain			As SplashFade
+	Private ivLogin 		As ImageView
+	Private iv1 			As ImageView
+	Private etEmail 		As EditText
+	Private iv2 			As ImageView
+	Private etPass 			As EditText
+	Private bSubmit 		As Button
+	Private iv3 			As ImageView
+	Private iv4 			As ImageView
+	Private ivBg			As ImageView
+	Private BDLogin			As BetterDialogs	
+	Private ivLoginFB 		As ImageView
+	Private ipack			As Int
+	Private pm 				As PackageManager
+	Private ups 			As Intent
+	Private ivUser 			As ImageView
+	Private lblUser 		As Label
+	Private lblNamaFilm 	As Label
+	Private user 			As Map
+	Private Pertama			As Boolean
+	Private Label1 			As Label
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	'Do not forget to load the layout file created with the visual designer. For example:
+	'Activity.LoadLayout("Layout1")
+
+	Activity.Color = Colors.ARGB(255, 50, 50, 50)  
+
+	#Region Set Default Folder
+	If FirstTime Then
+		Fungsi.SetDirProg("")
+		Fungsi.BacaFileConfig
+		Fungsi.mpList.Put("DirDBS", Fungsi.DirDBS)
+	End If
+	#End Region
+	
+	#Region Deteksi screen layar gadget
+	If GetDeviceLayoutValues.ApproximateScreenSize < 5 Then
+ 		'phones
+		sfMain.Initialize(Activity, Me, "mockupsplashscreen.jpg", Gravity.CENTER, 2000, 100, "Down", True)
+	Else
+  	'tablets
+		sfMain.Initialize(Activity, Me, "mockupsplashscreen.jpg", Gravity.CENTER, 2000, 100, "Down", True)
+	End If
+	#End Region
+	
+	Pertama = FirstTime
+End Sub
+
+Sub Activity_Resume
+	Fungsi.DirDBS = Fungsi.mpList.Get("DirDBS")
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
+
+Sub Splash_Complete
+	#Region Cek File Config.json
+	If File.Exists(File.DirAssets, "config.json") Then
+		If Fungsi.CacahJSON(File.ReadString(File.DirAssets, "config.json"), "NextArray") = False Then
+			BDLogin.Msgbox("Error", "Reading config failed !", "OK", "", "", Fungsi.GetDrawable("ic_action_warning"))
+			ExitApplication
+		End If
+	Else
+		BDLogin.Msgbox("Error", "Load config failed !", "OK", "", "", Fungsi.GetDrawable("ic_action_warning"))
+		ExitApplication
+	End If
+	#End Region
+
+	#Region Awal aplikasi mulai
+	If Pertama Then
+		If File.Exists(Fungsi.DirDBS, "nexplayersdklite.apk") = False Then
+			ProgressDialogShow2("Please wait...", False)
+			DoEvents
+			File.Copy(File.DirAssets, "nexplayersdklite.apk", Fungsi.DirDBS, "nexplayersdklite.apk")
+			ProgressDialogHide
+			DoEvents
+		End If
+
+		Dim pacList As List = pm.GetInstalledPackages
+		ipack = pacList.IndexOf("com.nexstreaming.app.nexplayersamplelitevm")
+
+		If ipack < 0 Then
+			ups.Initialize(ups.ACTION_VIEW, "file://" & File.Combine(Fungsi.DirDBS, "nexplayersdklitevm.apk"))
+			ups.SetType("application/vnd.android.package-archive")
+			StartActivity(ups)
+		End If
+	End If
+	#End Region
+
+	#Region Tampilkan Layout Dari Designer
+	Activity.LoadLayout("Login")
+	#End Region
+
+	#Region Set Background
+	Dim cdBack 	As ColorDrawable	
+	cdBack.Initialize(Colors.RGB(132, 31, 40), 5)	
+	iv1.Background = Fungsi.GetDrawable("mail_icon")
+	iv2.Background = cdBack
+	iv3.Background = Fungsi.GetDrawable("password_icon")
+	iv4.Background = cdBack
+	etEmail.Background = cdBack
+	etPass.Background = cdBack
+	ivBg.Background = Fungsi.GetDrawable("logo_login")
+	#End Region
+
+'	Activity.Finish
+'	StartActivity("Login")
+End Sub
+
+Sub bSubmit_Click
+'	Activity.Finish
+'	StartActivity("Utama")
+		Dim HomeJob As MNChttpJob
+		Dim	strEnc	As String
+		Dim Gen		As JSONGenerator
+		Dim mlogin	As Map
+		
+		mlogin.Initialize
+		mlogin.Clear
+		
+		
+		mlogin.Put(Fungsi.mpList.Get("username"), etEmail.text)
+		mlogin.Put(Fungsi.mpList.Get("loginpass"), etPass.Text)
+		Gen.Initialize(mlogin)
+'		Log(Gen.ToPrettyString(4))
+
+
+		HomeJob.Initialize("Login", Me)
+
+		Try
+			HomeJob.Tag = "Login"
+			strEnc = Fungsi.ProsesEnkripsi(Gen.ToPrettyString(14))
+			If strEnc = "Enkripsi Failed" Then Return
+			HomeJob.PostString(Fungsi.mpList.Get ("LoginURL"), "teks=" & strEnc)
+			HomeJob.GetRequest.SetHeader("Cache-Control", "no-cache, must-revalidate")
+			HomeJob.GetRequest.Timeout = DateTime.TicksPerSecond * 60
+		Catch
+			Msgbox2("Login Failure !", "Moviebay", "OK", "", "", LoadBitmap(File.DirAssets, "warning.png"))
+		End Try
+End Sub
+
+Sub bReg_Click
+	StartActivity("Register")
+End Sub
+
+Sub JobDone (MNChttp As MNChttpJob)
+	Dim sf			As StringFunctions
+	Dim sTmp 		As String
+	Dim parser 		As JSONParser	
+	Dim mresult		As Map
+	Dim bTmp()		As Byte
+	Dim bcTmp		As ByteConverter
+	Dim su 			As StringUtils
+
+
+	#Region HTTP Gagal
+	If MNChttp.Success = False Then
+		If (sf.InString(MNChttp.ErrorMessage, "timed out") > 0) OR (sf.InString(MNChttp.ErrorMessage, "refused") > 0) OR _
+			 (sf.InString(MNChttp.ErrorMessage, "Unable to resolve host") > 0) OR (sf.InString(MNChttp.ErrorMessage, "UnknownHostException") > 0) OR _
+			 (sf.InString(MNChttp.ErrorMessage, "FileNotFound") > 0) Then
+'			ctoast.Show4("Error", "Offline Connection or Server Down", LoadBitmap(File.DirAssets, "warning.png"))
+			Msgbox2("Offline Connection or Server Down", "Moviebay", "OK", "", "", LoadBitmap(File.DirAssets, "warning.png"))
+		Else
+			If sf.InString(MNChttp.ErrorMessage, "Not Found") < 0 Then
+'				ctoast.Show4("Error", "Unknown Error", LoadBitmap(File.DirAssets, "warning.png"))
+				Msgbox2("Unknown Error", "Moviebay", "OK", "", "", LoadBitmap(File.DirAssets, "warning.png"))
+			End If
+		End If
+
+		Fungsi.mpList.Put("Koneksi", "Offline")
+		MNChttp.Release
+	#End Region
+	#Region HTTP Sukses
+	Else
+		Try
+			bTmp = su.DecodeBase64(MNChttp.GetString)
+			sTmp = bcTmp.StringFromBytes(bTmp, "UTF8")
+			parser.Initialize(Fungsi.UnWrap(sTmp))
+			MNChttp.Release
+		Catch
+			Msgbox2("Process Failure !", "Moviebay", "OK", "", "", LoadBitmap(File.DirAssets, "warning.png"))			
+			Return
+		End Try
+		
+		Try
+			mresult.Initialize
+			mresult = parser.NextObject
+		Catch
+			Msgbox2("Process Failure !", "Moviebay", "OK", "", "", LoadBitmap(File.DirAssets, "warning.png"))			
+			Return
+		End Try
+'		Log(mresult)
+		If mresult.Get("Result") <> "0" Then
+			Msgbox2(mresult.Get("Message"), "Moviebay", "OK", "", "", LoadBitmap(File.DirAssets, "warning.png"))			
+		Else
+			Fungsi.mpList.Put("Koneksi", "Online")
+			MNChttp.Release
+
+			Select MNChttp.JobName			
+			#Region Register
+'			Case "Register"
+'			Msgbox2(mresult.Get("Message"), "Movibay", "OK", "", "", LoadBitmap(File.DirAssets, "warning.png"))			
+			#End Region
+			
+			#Region Login
+			Case "Login"
+'			Log(mresult)
+			Dim Test1  As List
+			Dim Test2  As String
+			
+		
+			Test1.Initialize
+			Test1 = mresult.Get("Data")
+			
+			For Each colLogin As Map In Test1
+				Test2 = colLogin.Get("firstname") 
+			Next				
+			
+			Utama.damn = Test2
+			
+			Activity.Finish
+			StartActivity(Utama)	
+			#End Region			
+
+			End Select
+		End If
+	End If
+	
+End Sub
+
+Sub ivLoginFB_Click
+	Dim p As PhoneIntents
+	StartActivity(p.OpenBrowser("http://www.facebook.com/"))
+End Sub

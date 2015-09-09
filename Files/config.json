@@ -1,0 +1,107 @@
+[
+    {
+        "IPAddr0": "202.80.222.50",
+        "IPAddr1": "202.147.207.5",
+        "IPAddr2": "202.147.196.118",
+        "IPAddr3": "202.80.222.51",
+        "IPAddr4": "202.147.207.4",
+        "IPAddr5": "202.147.192.113",
+        "Port0": 8080,
+        "Port1": 8086,
+        "Action1": "Login",
+        "Action2": "Logout",
+        "Authentication": [
+            {
+               "ugc_username":"ugc_username=mnctube&",
+               "ugc_password":"ugc_password=1nd1n6t3r1r10&",
+               "Username":"Username=",
+               "Password":"Password="
+            }
+         ],	
+        "MenuCategory": [
+            {
+				"Cate0": "CHANNEL",
+                "Cate1": "MOVIES",
+                "Cate2": "SERIES"
+            }
+         ],
+        "MenuMovies": [
+            {
+            	"Movies0": "WESTERN",
+                "Movies2": "INDONESIAN", 
+				"Movies3": "FTV"
+            }
+         ],
+		 "MenuTrailer":[
+				{
+				"Trailer0": "trailer"
+				}
+			],
+        "MenuChannel": [
+            {
+            	"Channel0": "Channel"
+            }
+         ],
+        "MenuSeries": [
+				{
+            	"Series0": "Drama"
+				}
+			],
+		 "Register": [
+            {
+				"RegisterURL": "http://202.147.192.113/moviebay/backend/api/customer/register",
+				"firstname":"firstname",
+                "lastname":"lastname",
+                "regemail":"email",
+				"handphone":"handphone",
+				"regpass":"password",
+				"gender":"gender",
+				"homephone":"homephone",
+				"id_city":"id_city",
+				"zipcode":"zipcode"
+            }
+         ],
+		 "Login": [
+            {
+				"LoginURL":"http://backend.moviebay.com/api/customer/login",
+				"username":"email",
+				"loginpass":"password"
+            }
+         ],
+		 "Category": [
+            {
+				"CateURL":"http://backend.moviebay.com/api/menu/GetCategory",
+				"sliding":"sliding"
+            }
+         ],
+		 "PilihCategory": [
+			{
+				"ListCateURL":"http://backend.moviebay.com/api/menu/GetCategory",
+				"sliding1":"sliding1"
+			}
+		],
+		 "CateMovies": [
+			{
+				"MoviesURL":"http://backend.moviebay.com/api/menu/GetCategory",
+				"slug":"slug"
+			}
+		],
+		"SlideCate": [
+			{
+				"SlideURL":"http://backend.moviebay.com/api/menu/GetCategorySlider",
+				"Variabel":"Value"
+			}
+		],
+		"SlugPager": [
+			{
+				"SlugURL":"http://backend.moviebay.com/api/product/getProductBySlug",
+				"Variabel":"slug"
+			}
+		],	
+		"SearchPage": [
+			{
+				"SearchURL":"http://backend.moviebay.com/api/product/getProduct"
+			}
+		]
+		}
+	]

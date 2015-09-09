@@ -1,0 +1,75 @@
+{
+    "return": {
+        "custinfo": [
+            {
+                "nama_pelanggan": "PRODUCT INFRASRUCTURE SUPPORT",
+                "no_account": "1000000665",
+                "no_formaplikasi": "1",
+                "CustomerType": "Residential",
+                "SellingType": "Non Bundling",
+                "customer_status": "Permanent Activation",
+                "SourceCustomer": "MKM",
+                "bccode": "1",
+                "linkactive": "2014-11-01",
+                "IDType": "KTP",
+                "IDNumber": "333333333333333333333331",
+                "gender": "Pria",
+                "dob": "2014-05-06",
+                "address": "JL. KEBON SIRIH no 17-19 rt/rw 1/6, Kebon Sirih, Menteng, Kota Jakarta Pusat .",
+                "ont_id": "1/2/1:14",
+                "no_fat": "KSH06.06.01.02/03",
+                "no_core": "1",
+                "sn": "ZTEGC0818F6A",
+                "macaddress": "EC8A4CBC25EF",
+                "totalbayar": "221.925",
+                "marcat": "Regular-Regular"
+            }
+        ],
+        "services": [
+            {
+                "id": "111",
+                "idsubscription": "55181",
+                "servicename": "Linux",
+                "category": "Rental Set Top Box",
+                "needtosuspend": null,
+                "needtoactivated": null,
+                "servicestatus": "1",
+                "stringstatusservice": "Active"
+            },
+            {
+                "id": "556",
+                "idsubscription": "55180",
+                "servicename": "Mars-Up to 30 Mbps",
+                "category": "Bundlingtvinet",
+                "needtosuspend": null,
+                "needtoactivated": null,
+                "servicestatus": "1",
+                "stringstatusservice": "Active"
+            }
+        ],
+        "discount": [
+            {
+                "category": "Bundlingtvinet",
+                "servicename": "Mars-Up to 30 Mbps",
+                "discountname": "Diskon 50% selama 3 bulan",
+                "effective_from": "2014-11-01 00:00:00",
+                "effective_to": "2015-02-01 00:00:00"
+            },
+            {
+                "category": "Installation Fee",
+                "servicename": "Installation",
+                "discountname": "disc instalasi 50%",
+                "effective_from": "2014-11-01 00:00:00",
+                "effective_to": "2014-12-01 00:00:00"
+            },
+            {
+                "category": "Bundlingtvinet",
+                "servicename": "Mars-Up to 30 Mbps",
+                "discountname": "free one month",
+                "effective_from": "2015-02-01 18:36:23",
+                "effective_to": "2015-03-01 18:36:23"
+            }
+        ],
+        "bonus": ""
+    }
+}

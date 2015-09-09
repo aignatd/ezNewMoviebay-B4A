@@ -1,0 +1,90 @@
+package newmoviebay.mncplaymedia.com.designerscripts;
+import anywheresoftware.b4a.objects.TextViewWrapper;
+import anywheresoftware.b4a.objects.ImageViewWrapper;
+import anywheresoftware.b4a.BA;
+
+
+public class LS_newreg{
+
+public static void LS_general(java.util.LinkedHashMap<String, anywheresoftware.b4a.keywords.LayoutBuilder.ViewWrapperAndAnchor> views, int width, int height, float scale) {
+anywheresoftware.b4a.keywords.LayoutBuilder.setScaleRate(0.3);
+anywheresoftware.b4a.keywords.LayoutBuilder.scaleAll(views);
+views.get("psemua").vw.setLeft((int)(0d));
+views.get("psemua").vw.setWidth((int)((100d / 100 * width) - (0d)));
+views.get("psemua").vw.setTop((int)(0d));
+views.get("psemua").vw.setHeight((int)((100d / 100 * height) - (0d)));
+views.get("patas").vw.setLeft((int)(0d));
+views.get("patas").vw.setWidth((int)((100d / 100 * width) - (0d)));
+views.get("patas").vw.setTop((int)(0d));
+views.get("patas").vw.setHeight((int)((views.get("putama").vw.getTop()) - (0d)));
+views.get("putama").vw.setLeft((int)(0d));
+views.get("putama").vw.setWidth((int)((100d / 100 * width) - (0d)));
+views.get("putama").vw.setTop((int)((views.get("patas").vw.getTop() + views.get("patas").vw.getHeight())));
+views.get("putama").vw.setHeight((int)((100d / 100 * height) - ((views.get("patas").vw.getTop() + views.get("patas").vw.getHeight()))));
+views.get("ivback").vw.setLeft((int)(0d));
+views.get("ivback").vw.setWidth((int)((10d / 100 * width) - (0d)));
+views.get("ivback").vw.setTop((int)(0d));
+views.get("ivback").vw.setHeight((int)((10d / 100 * height) - (0d)));
+views.get("lblatas").vw.setLeft((int)((views.get("ivback").vw.getLeft() + views.get("ivback").vw.getWidth())));
+views.get("lblatas").vw.setWidth((int)((95d / 100 * width) - ((views.get("ivback").vw.getLeft() + views.get("ivback").vw.getWidth()))));
+views.get("lblatas").vw.setTop((int)(0d));
+views.get("lblatas").vw.setHeight((int)((10d / 100 * height) - (0d)));
+views.get("ivlogo").vw.setLeft((int)((6.2d / 100 * width)));
+views.get("ivlogo").vw.setWidth((int)((100d / 100 * width) - ((6.2d / 100 * width))));
+views.get("ivlogo").vw.setTop((int)(0d));
+views.get("ivlogo").vw.setHeight((int)((views.get("ivreg").vw.getTop())-(4d / 100 * height) - (0d)));
+views.get("ivreg").vw.setLeft((int)((3d / 100 * width)));
+views.get("ivreg").vw.setWidth((int)((95d / 100 * width) - ((3d / 100 * width))));
+views.get("ivreg").vw.setTop((int)((views.get("ivlogo").vw.getTop() + views.get("ivlogo").vw.getHeight())+(1d / 100 * height)));
+views.get("ivreg").vw.setHeight((int)((16d / 100 * height) - ((views.get("ivlogo").vw.getTop() + views.get("ivlogo").vw.getHeight())+(1d / 100 * height))));
+views.get("etfirst").vw.setLeft((int)((4d / 100 * width)));
+views.get("etfirst").vw.setWidth((int)((50d / 100 * width) - ((4d / 100 * width))));
+views.get("etfirst").vw.setTop((int)((views.get("ivreg").vw.getTop() + views.get("ivreg").vw.getHeight())+(1d / 100 * height)));
+views.get("etfirst").vw.setHeight((int)((22d / 100 * height) - ((views.get("ivreg").vw.getTop() + views.get("ivreg").vw.getHeight())+(1d / 100 * height))));
+views.get("etlast").vw.setLeft((int)((views.get("etfirst").vw.getLeft() + views.get("etfirst").vw.getWidth())+(1d / 100 * width)));
+views.get("etlast").vw.setWidth((int)((95d / 100 * width) - ((views.get("etfirst").vw.getLeft() + views.get("etfirst").vw.getWidth())+(1d / 100 * width))));
+views.get("etlast").vw.setTop((int)((views.get("ivreg").vw.getTop() + views.get("ivreg").vw.getHeight())+(1d / 100 * height)));
+views.get("etlast").vw.setHeight((int)((22d / 100 * height) - ((views.get("ivreg").vw.getTop() + views.get("ivreg").vw.getHeight())+(1d / 100 * height))));
+views.get("etmail").vw.setLeft((int)((4d / 100 * width)));
+views.get("etmail").vw.setWidth((int)((95d / 100 * width) - ((4d / 100 * width))));
+views.get("etmail").vw.setTop((int)((views.get("etfirst").vw.getTop() + views.get("etfirst").vw.getHeight())+(1d / 100 * height)));
+views.get("etmail").vw.setHeight((int)((28d / 100 * height) - ((views.get("etfirst").vw.getTop() + views.get("etfirst").vw.getHeight())+(1d / 100 * height))));
+views.get("etphone").vw.setLeft((int)((4d / 100 * width)));
+views.get("etphone").vw.setWidth((int)((95d / 100 * width) - ((4d / 100 * width))));
+views.get("etphone").vw.setTop((int)((views.get("etmail").vw.getTop() + views.get("etmail").vw.getHeight())+(1d / 100 * height)));
+views.get("etphone").vw.setHeight((int)((35d / 100 * height) - ((views.get("etmail").vw.getTop() + views.get("etmail").vw.getHeight())+(1d / 100 * height))));
+views.get("spgender").vw.setLeft((int)((4d / 100 * width)));
+views.get("spgender").vw.setWidth((int)((50d / 100 * width) - ((4d / 100 * width))));
+views.get("spgender").vw.setTop((int)((views.get("etphone").vw.getTop() + views.get("etphone").vw.getHeight())+(1d / 100 * height)));
+views.get("spgender").vw.setHeight((int)((42d / 100 * height) - ((views.get("etphone").vw.getTop() + views.get("etphone").vw.getHeight())+(1d / 100 * height))));
+views.get("cvbirth").vw.setLeft((int)((views.get("spgender").vw.getLeft() + views.get("spgender").vw.getWidth())+(1d / 100 * width)));
+views.get("cvbirth").vw.setWidth((int)((95d / 100 * width) - ((views.get("spgender").vw.getLeft() + views.get("spgender").vw.getWidth())+(1d / 100 * width))));
+views.get("cvbirth").vw.setTop((int)((views.get("etphone").vw.getTop() + views.get("etphone").vw.getHeight())+(1d / 100 * height)));
+views.get("cvbirth").vw.setHeight((int)((42d / 100 * height) - ((views.get("etphone").vw.getTop() + views.get("etphone").vw.getHeight())+(1d / 100 * height))));
+views.get("lblpassword").vw.setLeft((int)((4d / 100 * width)));
+views.get("lblpassword").vw.setWidth((int)((95d / 100 * width) - ((4d / 100 * width))));
+views.get("lblpassword").vw.setTop((int)((views.get("spgender").vw.getTop() + views.get("spgender").vw.getHeight())+(1d / 100 * height)));
+views.get("lblpassword").vw.setHeight((int)((48d / 100 * height) - ((views.get("spgender").vw.getTop() + views.get("spgender").vw.getHeight())+(1d / 100 * height))));
+views.get("etpass").vw.setLeft((int)((4d / 100 * width)));
+views.get("etpass").vw.setWidth((int)((95d / 100 * width) - ((4d / 100 * width))));
+views.get("etpass").vw.setTop((int)((views.get("lblpassword").vw.getTop() + views.get("lblpassword").vw.getHeight())+(1d / 100 * height)));
+views.get("etpass").vw.setHeight((int)((54d / 100 * height) - ((views.get("lblpassword").vw.getTop() + views.get("lblpassword").vw.getHeight())+(1d / 100 * height))));
+views.get("etconfirm").vw.setLeft((int)((4d / 100 * width)));
+views.get("etconfirm").vw.setWidth((int)((95d / 100 * width) - ((4d / 100 * width))));
+views.get("etconfirm").vw.setTop((int)((views.get("etpass").vw.getTop() + views.get("etpass").vw.getHeight())+(1d / 100 * height)));
+views.get("etconfirm").vw.setHeight((int)((60d / 100 * height) - ((views.get("etpass").vw.getTop() + views.get("etpass").vw.getHeight())+(1d / 100 * height))));
+views.get("ck1").vw.setLeft((int)((4d / 100 * width)));
+views.get("ck1").vw.setWidth((int)((12d / 100 * width) - ((4d / 100 * width))));
+views.get("ck1").vw.setTop((int)((views.get("etconfirm").vw.getTop() + views.get("etconfirm").vw.getHeight())+(1d / 100 * height)));
+views.get("ck1").vw.setHeight((int)((64d / 100 * height) - ((views.get("etconfirm").vw.getTop() + views.get("etconfirm").vw.getHeight())+(1d / 100 * height))));
+views.get("lblcek").vw.setLeft((int)((views.get("ck1").vw.getLeft() + views.get("ck1").vw.getWidth())+(1d / 100 * width)));
+views.get("lblcek").vw.setWidth((int)((90d / 100 * width) - ((views.get("ck1").vw.getLeft() + views.get("ck1").vw.getWidth())+(1d / 100 * width))));
+views.get("lblcek").vw.setTop((int)((views.get("etconfirm").vw.getTop() + views.get("etconfirm").vw.getHeight())+(1d / 100 * height)));
+views.get("lblcek").vw.setHeight((int)((66d / 100 * height) - ((views.get("etconfirm").vw.getTop() + views.get("etconfirm").vw.getHeight())+(1d / 100 * height))));
+views.get("breg").vw.setLeft((int)((4d / 100 * width)));
+views.get("breg").vw.setWidth((int)((95d / 100 * width) - ((4d / 100 * width))));
+views.get("breg").vw.setTop((int)((views.get("lblcek").vw.getTop() + views.get("lblcek").vw.getHeight())+(8d / 100 * height)));
+views.get("breg").vw.setHeight((int)((85d / 100 * height) - ((views.get("lblcek").vw.getTop() + views.get("lblcek").vw.getHeight())+(8d / 100 * height))));
+
+}
+}
